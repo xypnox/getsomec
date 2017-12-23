@@ -67,3 +67,7 @@ The ways %[something] can be used where something is:
 **d or i** for numbers. Integers specifically.
 
 **f** for floating point numbers. Use `%.nf` where n is any number such as 2 to display n digits after floating point.
+
+**e** for scientific Notation.
+
+**s** for a string of characters.
