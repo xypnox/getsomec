@@ -66,8 +66,18 @@ The ways %[something] can be used where something is:
 
 **d or i** for numbers. Integers specifically.
 
-**f** for floating point numbers. Use `%.nf` where n is any number such as 2 to display n digits after floating point.
+**f** for floating point numbers.
 
 **e** for scientific Notation.
 
 **s** for a string of characters.
+
+> **For Decimals and Padding** You can use `%12.5f` or `%12.5e` for having the total variable occupy at most 12 spaces with 5 decimal points. Additionally `e` displays it in exponential.
+
+#### Escape sequences
+
+`\n` : Newline, Places output to a new line.
+
+`\t` : Tabbs the following content.
+
+`\0` : used to end the character string. 
