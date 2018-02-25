@@ -14,6 +14,11 @@ int main(){
                 k *= 2;
             }
             dec += k;
+        } else if (str[i] == '0') {
+            continue;
+        } else {
+            printf("Not Valid Binary Form\n");
+            return 0;
         }
     }
 
