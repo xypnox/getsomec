@@ -1,8 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    printf("Awesoe");
-    printf("Awesomen");
-    printf("Awesome\n");
+    printf("%f\n", 30*0.4);
     return 0;
 }
