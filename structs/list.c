@@ -11,10 +11,6 @@ int printList(list);
 int printListR(list);
 int printListO(list);
 
-// insertion
-
-int insertList(list);
-
 int main() { // selfRef4.c
     list l=NULL, previous=NULL;
     int n, data;
