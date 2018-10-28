@@ -1,5 +1,5 @@
 # Pointers
-Pointers are the variables that holds a memory address, usually the location of another variable in memory. Pointers are one of the strongest and also one of the most dangerous and vulnerable features of C++. For instance, *uninitialized*, or *wild pointers* can cause your system to crash. Perhaps worse, it is easy to use pointers incorrectly, causing bugs that are very difficult to find. So it makes it important to grasp the concept in order to exploit its power and use it without creating much problems to your program. Lets just dive into the technicalities without any further delay!
+Pointers are the variables that holds a memory address, usually the location of another variable in memory. Pointers are one of the strongest and also one of the most dangerous and vulnerable features of C/C++. For instance, *uninitialized*, or *wild pointers* can cause your system to crash. Perhaps worse, it is easy to use pointers incorrectly, causing bugs that are very difficult to find. So it makes it important to grasp the concept in order to exploit its power and use it without creating much problems to your program. Lets just dive into the technicalities without any further delay!
 
 ## Declaration and initialization of pointers
 - Unary * character is used for the declaration of Pointers.
@@ -19,15 +19,15 @@ int *iptr;            // declares an int pointer
 iptr = &i;            // stores the memory address of i into iptr
 ```  
 - `&` is the unary operator that returns the memory address of the operand. While unary operator `*` does the reverse. It returns the value of the variable located at the address following it. For example if `iptr` contains the memory address 1234 then `*iptr` will return the value stored at that memory address.
-> The operand of `&` is an ordinary variable but the operand of `*` can only be a pointer variable.
+> The operand of `&` can an ordinary variable but the operand of `*` can only be a pointer variable.
 
 ### Dereferencing
 The term refers to changing/accessing state of the pointer.<br>
-1. Asterisk(`*`) indirection operator is used along with pointer variable while dereferencing the pointer variable.
-2. Asterisk Operator is also called as value at operator
-3. When used with Pointer variable, it refers to variable being pointed to,this is called as Dereferencing of Pointers.
-4. Dereferencing Operation is performed to access or manipulate data contained in memory location pointed to by a pointer
-5. Any Operation performed on the de-referenced pointer directly affects the value of variable it pointes to.
+- Asterisk(`*`) indirection operator is used along with pointer variable while dereferencing the pointer variable.
+- Asterisk Operator is also called as value at operator
+- When used with Pointer variable, it refers to variable being pointed to,this is called as Dereferencing of Pointers.
+- Dereferencing Operation is performed to access or manipulate data contained in memory location pointed to by a pointer
+- Any Operation performed on the de-referenced pointer directly affects the value of variable it pointes to.
 ```
 // Sample Code for Dereferencing of Pointer
 int n = 50 , x ;
@@ -118,7 +118,7 @@ A successful call to one of the memory allocation functions returns the beginnin
 ## Resources
 
 - [C FAQ question on string initialisation](http://c-faq.com/decl/strlitinit.html)
-- Wikipedia https://en.wikipedia.org/wiki/Pointer_(computer_programming)
+- [Wikipedia](https://en.wikipedia.org/wiki/Pointer_(computer_programming))
 - ["Equivalence" of arrays and pointers](http://c-faq.com/aryptr/aryptrequiv.html)
 - [Binky Pointer Fun C](https://www.youtube.com/watch?v=5VnDaHBi8dM)
 - [Char array vs Char Pointer - Stack Overflow](https://stackoverflow.com/questions/10186765/char-array-vs-char-pointer-in-c#10186799)
