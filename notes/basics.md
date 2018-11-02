@@ -82,6 +82,10 @@ The ways %[something] can be used where something is:
 
 `\0` : used to end the character string.
 
+# Command Line arguments
+
+- [CLA](https://www.tutorialspoint.com/cprogramming/c_command_line_arguments.htm)
+
 # Resources
 
 - [Secrets of printf()](http://www.cypress.com/file/54441/download)
